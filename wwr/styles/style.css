@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
   }
+
+#logo_link {
+    padding-top: 5px;
+}
 
   nav a {
     text-align:center;
@@ -16,6 +24,7 @@
   }
   main section {
     text-align:center;
+    box-sizing: border-box;
   }
 
   #background {
@@ -24,6 +33,7 @@
 
   .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
     .logo {
@@ -32,6 +42,12 @@
 
   body {
     background-color: #B48B7D;
+    margin: 0;
+    padding: 0;
+  }
+
+h2 {
+    margin: 0;
   }
 
 h4 {
@@ -39,7 +55,10 @@ h4 {
 }
 
 .home-title {
+    font-family: 'Cabin Sketch';
+    font-size: 2em;
     color: #DFEFCA;
+    margin-top: 10px;
 }
 header {
     background-color: #AFC2D5;
@@ -48,11 +67,16 @@ header {
 nav a:hover {
     background-color: #B48B7D;
     color: #B48B7D;
+    padding: 35px;
 }
 
 .book, .join {
+    font-family: 'Roboto Flex', 'Courier';
+    font-size: at 18px;
     background-color: #B48B7D;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 
 .book:hover, .join:hover {
@@ -65,24 +89,41 @@ nav a:hover {
 
 .book, .join {
     color: #B48B7D;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     color: #DFEFCA;
 }
+
+.card-img {
+    border: 10px solid #0c0c0c;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+}
+
 .msg h2 {
     color: #AFC2D5;
 }
 .msg p {
+    font-family: 'Roboto Flex', 'Courier';
+    font-size: at .8em;
     color: #AFC2D5;
+    padding-bottom: 15px;
 }
 
 .msg {
     background-color: #B48B7D;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #B48B7D;
     color: #AFC2D5;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -100,4 +141,8 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
